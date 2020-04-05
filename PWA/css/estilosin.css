@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  #map_canvas{
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background-image: url(image/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+  }
+  header {
+    background: rgba(14, 0, 0, 0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    
+  }
+  .cont{
+  padding-top: 6%;
+  border: black;
+  background: rgba(94, 50, 36, 0.9);
+  height: 100%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  color: #FFFF;   
+  }
+  h2{
+    text-align: center;
+    border-top: 0px;    
+  }
+  input{
+    width: 230px;
+    height: 17px;
+  }
+  nav {
+    float: right; /* Desplazamos el nav hacia la izquierda */
+    margin-right: 100px;
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #3b1414;
+  }
+  .contenido {
+    padding-top: 80px;
+        
+  }
+  footer {
+    position: relative;
+    margin-top: -55px;
+    height: 40px;
+    padding:5px 0px;
+    clear: both;
+    background:  rgba(14, 0, 0, 0.9);;
+    text-align: center;
+    color: #fff;
+}
+.define {
+    width:960px;
+    margin:0 auto;
+}
