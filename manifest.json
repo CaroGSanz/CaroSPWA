@@ -4,21 +4,21 @@
     "icons": [{
         "src": "src/buho16.png",
         "sizes":"16x16",
-        "type": "src/png"
+        "type": "image/png"
     },{
         "src": "src/buho19.png",
         "sizes":"19x19",
-        "type": "src/png"
+        "type": "image/png"
     },{
         "src": "src/buho48.png",
         "sizes":"48x48",
-        "type": "src/png"
+        "type": "image/png"
     },{
         "src": "src/buho16.png",
         "sizes":"128x128",
-        "type": "src/png"
+        "type": "image/png"
     }],
-    "strat_url": "/index.html",
+    "strat_url": "https://carogsanz.github.io/CaroSPWA/",
     "display":"standalone",
     "background_color":"#3E4EB8",
     "theme_color": "#2F3BA2"
