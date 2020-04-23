@@ -40,11 +40,17 @@
         </div>
     </footer>
     <script>
-        if('serviceWorker' in navigator) {
-          navigator.serviceWorker
-                   .register('/sw.js')
-                   .then(function() { console.log("Service Worker Registered"); });
-        }
+       if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+   }
         </script>
     <script src="script.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
