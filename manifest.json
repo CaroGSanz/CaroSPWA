@@ -14,11 +14,11 @@
         "sizes":"48x48",
         "type": "image/png"
     },{
-        "src": "src/buho16.png",
+        "src": "src/buho128.png",
         "sizes":"128x128",
         "type": "image/png"
     }],
-    "strat_url": "https://carogsanz.github.io/CaroSPWA/",
+    "strat_url": ".",
     "display":"standalone",
     "background_color":"#3E4EB8",
     "theme_color": "#2F3BA2"
