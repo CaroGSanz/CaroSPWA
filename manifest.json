@@ -2,10 +2,6 @@
     "name": "Ubicacion",
     "short_name": "Ubicacion",
     "icons": [{
-        "src": "src/buho16.png",
-        "sizes":"16x16",
-        "type": "image/png"
-    },{
         "src": "src/buho19.png",
         "sizes":"19x19",
         "type": "image/png"
@@ -16,6 +12,10 @@
     },{
         "src": "src/buho128.png",
         "sizes":"128x128",
+        "type": "image/png"
+    }{
+        "src": "src/buho144.png",
+        "sizes":"144x144",
         "type": "image/png"
     }],
     "strat_url": ".",
